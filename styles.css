@@ -1,0 +1,412 @@
+@font-face {
+	font-family: "GreatFont";
+	src: local("GreatFont"),
+		url("./fonts/greatfont.ttf"), format("truetype");
+}
+@font-face {
+	font-family: "StalinistOne-Regular";
+	src: local("StalinistOne-Regular"),
+		url("./fonts/StalinistOne-Regular.ttf"), format("truetype");
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-device-width:992px){
+	.custom-text-style-CTA {
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 3vw;
+	color: #FFFFFF;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.custom-text-style-CTA {
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 3.5vw;
+	color: #FFFFFF;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.custom-text-style-About {
+	font-family: "GreatFont", sans-serif;
+	font-size: 1.7vw;
+	color: #FFFFFF;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.custom-text-style-About {
+	font-family: "GreatFont", sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.custom-text-style-Trainers {
+		font-family: "GreatFont", sans-serif;
+		font-size: 1.4vw;
+		color: #FFFFFF;
+	}
+}
+@media screen and (max-device-width:992px){
+	.custom-text-style-Trainers {
+		font-family: "GreatFont", sans-serif;
+		font-size: 4vw;
+		color: #FFFFFF;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.row.trainers {
+        background-color: #C7662F;
+    }
+}
+
+tex{
+	color: #C7662F;
+} 
+texBlack{
+	color: #070101;
+}
+
+@media screen and (min-device-width:992px){
+	body{
+  font-family: "GreatFont", sans-serif;
+  font-size: 3vw;
+  color: #FFFFFF;
+  background-color: #070101;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	body{
+  font-family: "GreatFont", sans-serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  background-color: #070101;
+	}
+}
+
+@media screen and (max-device-width:576px){
+	body{
+  font-family: "GreatFont", sans-serif;
+  font-size: 23px;
+  color: #FFFFFF;
+  background-color: #070101;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	h1{
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 2.5vw;
+	color: #FFFFFF;
+	text-align: center;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	h1{
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.text-for-heading-trainer{
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.text-for-heading-trainer{
+	font-family: "StalinistOne-Regular", sans-serif;
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: center;
+	}
+}
+
+
+/*.custom-offset {
+    margin-right: 120px;
+}*/
+.navbar, .nav-link {
+    font-family: "GreatFont", sans-serif;
+    font-size: 1.9vw;
+    margin: 6px;
+    color: #FFFFFF;
+}
+.custom-btn {
+    background-color: #C7662F;
+    color: white; /* Цвет текста */
+    border-radius: 20px;
+}
+.custom-btn:hover {
+    background-color: #A5592F; /* Цвет при наведении */
+}
+.custom-btn:active {
+    background-color: #A5592F; /* Цвет при клике */
+}
+.custom-btn-lg {
+    padding: 1.25vw 2vw;  /* Увеличенные отступы */
+    font-size: 2vw;        /* Увеличенный размер шрифта */
+}
+
+@media screen and (min-device-width:992px){
+	.custom-btn-form{
+		font-family: "StalinistOne-Regular", sans-serif;
+		background-color: #C7662F;
+		border-width: thick;
+		border-color: #070101 	;
+    color: white; /* Цвет текста */
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.custom-btn-form{
+		font-family: "StalinistOne-Regular", sans-serif;
+		background-color: #C7662F;
+		border-width: thick;
+		border-color: #070101 	;
+    color: white; /* Цвет текста */
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.custom-input-form{
+		margin-left: -50px; 
+		border-radius: 50px; 
+		border-color: rgba(0, 0, 0, 0)
+	}	
+}
+
+@media screen and (max-device-width:992px){
+	.custom-input-form{
+		margin-left: -60px; 
+		border-radius: 50px; 
+		border-color: rgba(0, 0, 0, 0)
+	}	
+}
+@media screen and (max-device-width:768px){
+	.custom-input-form{
+		border-radius: 50px; 
+		border-color: rgba(0, 0, 0, 0);
+		width: 200px;
+    height: 35px;
+	}	
+}
+
+
+
+.custom-btn-lg-form {
+    padding: 1.25vw 2vw;  /* Увеличенные отступы */
+    font-size: 2vw;        /* Увеличенный размер шрифта */
+}
+.custom-btn-form:hover {
+    background-color: #A5592F; /* Цвет при наведении */
+}		
+
+.modal{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: center;
+}
+.modal-content{
+	background-color: rgba(0, 0, 0,0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-close{
+	position: absolute;
+  right: 55px; /* Отступ от правого края */
+  top: 60px; /* Отступ от верхнего края */
+  color: #FFFFFF;
+  background-color:#EF7E3E;
+}
+.btn-close:hover {
+    color: #FFFFFF; /* Цвет при наведении, например, красный */
+}
+.card {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+@media screen and (min-device-width:992px){
+	.custom-card-size {
+    max-width: 280px;
+    width: 100%; /* Сохранение адаптивности */
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.custom-card-size {
+    max-width: 400px;
+    width: 100%; /* Сохранение адаптивности */
+	}
+}
+
+@media screen and (min-device-width:992px){
+.custom-card-spacing {
+    margin: -40px; /* Задаёт отступы вокруг каждой карточки */
+	}
+}
+
+@media screen and (max-device-width:992px){
+.custom-card-spacing {
+    margin: -50px; /* Задаёт отступы вокруг каждой карточки */
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.card-text{
+		font-size: 2vw;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.card-text{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.card-title{
+	font-size: 1.9vw;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.card-title{
+	font-size: 50px;
+	}
+}
+.noWrap { 
+	white-space: nowrap;
+}
+.custom-form {
+
+    /*padding-top: 100px;
+    padding-bottom: 90px;*/
+    background-color: #C7662F; /* Цвет фона формы*/
+    border-radius: 50px; /* Закругленные углы */
+    margin-bottom: 100px;
+}
+
+.custom-form input{
+  	font-size: 2.5vw;
+}
+.custom-form label{
+	font-size: 3vw;
+}
+
+.form-label {
+
+    /*margin-left: 150px;*/
+    border-radius: 50px; 
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.form-select{
+	font-size: 2.5vw;
+}
+
+.row.header { background-color: #C7662F }
+.row.welcome {
+			   background-color: #070101;
+			   background-size: cover; }
+
+.row.heading{
+	background-color: #070101
+}
+
+.row.aboutText{
+	background-color: #070101;
+}
+.row.aboutPhoto{
+	background-color: #070101;
+}
+@media screen and (min-device-width:992px){
+	.row.trainers{
+		background-image: url("Group 11 (1).png");
+		background-size: cover;
+		 background-position: center; /* Центрирует изображение в элементе */
+	    background-repeat: no-repeat;
+	}
+}
+.row.address{
+	background-color: #070101;
+}
+
+.form{
+	background-color: #070101;
+	 display: block;
+   width: 100%;
+   text-align: left;
+}
+.row.footer{
+	background-color: #C7662F;
+}
+
+.custom-padding-welcomePic {
+	padding-top: 100px;
+	padding-right: 1px;
+}
+.custom-padding-TimetableHead{
+	padding-top: 250px;
+}
+
+@media screen and (min-device-width:992px){
+	.custom-text-Foot{
+		font-size: 2vw;
+	}
+}
+
+@media screen and (max-device-width:992px){
+	.custom-text-Foot{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-device-width:992px){
+	.custom-padding-Foot{
+		margin-left: 70px;
+	}
+}
+
+.custom-padding-Timetable-Days{
+	padding-left: 130px;
+	padding-bottom: 500px;
+	position: relative;
+    bottom: -170px;
+}
+.custom-padding-Timetable-Times{
+	padding-left: 150px;
+	padding-bottom: 500px;
+	position: relative;
+    bottom: -130px;
+}
+
+.time-line-height {
+    line-height: 1.8; /* Увеличивает межстрочный интервал */
+}
+
+.Bigtime-line-height{
+	line-height: 6;
+}

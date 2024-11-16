@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Site</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/
+				bootstrap.min.css" rel="stylesheet" integrity="sha384-
+				QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMh
+				jY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-pzjw8f+ua7Kw1TIq0sF6PgcDX9f9l5lxFh5l5RmxvNdPZ7R8Jv5t9Tt0vSkxkYvg" 
+      crossorigin="anonymous">
+
+</head>
+<body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pzjw8f+ua7Kw1TIq0sF6PgcDX9f9l5lxFh5l5RmxvNdPZ7R8Jv5t9Tt0vSkxkYvg" 
+        crossorigin="anonymous"></script>
+<div class="container">
+	
+	<div class = "row header">
+		<div class="col-lg-3 col-3 d-flex justify-content-center pt-5 pb-5">
+			<img src="Logo1x.png" class="img-fluid">
+		</div>
+
+		<div class="col-lg-9 col-9 d-flex justify-content-end ">
+			<nav class="navbar navbar-expand-lg"> <!-- nav - тег для определения навигацтонного меню, navbar - класс Bootstrap для применения стилей к навигационной панеле -->
+													<!-- navbar-expand-lg - Класс, который указывает, что навигационная панель будет расширена (то есть элементы будут расположены в строку) на экранах большого размера (от 992 пикселей). На экранах меньшего размера навигационная панель будет свернут-->
+			<div class="container-fluid"> <!-- container-fluid -  Класс Bootstrap для контейнера, который растягивается на всю ширину экрана, обеспечивая адаптивную структуру.-->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+						data-bs-target="#navbarNav"  aria-controls="navbarNav"  
+						aria-expanded="false" aria-label="Toggle navigation"> <<!-- class="navbar-toggler" -  создает кнопку-бургер, которая применяется для открытия и закрытия навигационного меню на маленьких экранах--
+						data-bs-target="#navbarNav" - Указывает ID элемента (в данном случае, #navbarNav), который будет сворачиваться или разворачиваться при нажатии на кнопку.
+						aria-expanded="false" - Этот атрибут указывает, развернуто ли меню в текущий момент.-->
+				<span class="navbar-toggler-icon"></span> <!-- navbar-toggler-icon - Класс Bootstrap, который добавляет иконку "бургер-меню"-->
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav"> <!-- collapse navbar-collapse - Этот блок служит контейнером для навигационных ссылок и будет сворачиваться или разворачиваться при нажатии на кнопку-бургер.-->
+				 <ul class="navbar-nav"><!-- navbar-nav - Класс Bootstrap, который оформляет список навигационных ссылок, превращая его в горизонтальное меню.-->
+				 	<li class="nav-item active"><a class="nav-link" href="#IDAbout">О нас</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="#IDTeren">Тренеры</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="#IDAddress">Адреса</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="#IDTimeTable">Расписание</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="#IDContacts">Контакты</a></li>
+				 </ul></div></div></nav>
+		</div>
+	</div>
+
+
+	<div class="row welcome d-flex align-items-center pb-10">
+
+		<div class="col-lg-6 col-6 text-center">
+			<div class="display-5 custom-text-style-CTA pb-5">Академия<br>баскетбола</div>
+			<a button type="button" class="btn custom-btn custom-btn-lg" href="#IDButtonTry">Попробовать бесплатно</button></a>
+		</div>
+
+		<div class="col-lg-6 col-6 custom-padding-welcomePic" >
+			<img src="1.png"
+				 class="img-fluid">
+		</div>
+	</div>
+	
+	<div class = "row heading pt-5 pb-3" id="IDAbout">
+		<div class="col-lg-12 col-12 d-flex justify-content-center pt-5"><h1>О НАС</h1></div>
+	</div>
+	
+	<div class="row aboutText">
+		<div class="col-lg-12 col-12 justify-content-center text-center pl-5 custom-text-style-About">
+				<br>В нашей баскетбольной секции мы учим Вас не только играть в баскетбол, но и <br> стремиться к <tex>личному совершенствованию</tex>, ценить работу в команде<br> и радоваться спортивным достижениям.</br>
+				<br>Мы структурируем учебный процесс таким образом,<br> чтобы Вы могли приобрести навыки и знания у <tex>опытных специалистов</br>
+		</div>
+	</div>
+	
+	<div class="row aboutPhoto d-flex justify-content-center pb-5 ">
+		<div class="col-lg-5 col-sm-12 pt-5 pb-5 d-flex justify-content-center">
+			<img src="PlayPhoto1.png"
+				 class="img-fluid">
+		</div>
+
+		<div class="col-lg-5 col-sm-12 pt-5 pb-lg-5 d-flex justify-content-center">
+			<img src="PlayPhoto2.png"
+				 class="img-fluid">
+		</div>
+	</div>
+	
+	
+	<div class="row trainers d-flex justify-content-center pt-5 pt-sm-3 " id="IDTeren">
+		<div class="col-lg-12 col-12 d-flex justify-content-center text-for-heading-trainer mt-5 pt-lg-5 pt-sm-3" style="">НАШИ ТРЕНЕРЫ</div>
+		<div class=" col-lg-4 col-sm-12 order-lg-1 pt-lg-5 pt-sm-5 custom-card-spacing d-flex justify-content-center">
+			<div class="card custom-card-size">
+				<img src="Trainer1.png" class="card-img-bottom" alt="Photo 1">
+				<div class="card-body custom-text-style-Trainers">
+					<h2 class="card-title text-center" style="white-space: nowrap;"><br>Иванов <br>Александр<br>Валерьевич</br></h2>
+					<p class="d-md-none card-text"><p align="center"><texBlack>Достижения</texBlack><br>Чемпион Евролиги ФИБА (2004-2005) Серебряный призер Кубка вызова ФИБА (2009-2010)</br></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-sm-12 order-lg-2 pt-lg-5 pt-sm-2 custom-card-spacing d-flex justify-content-center ">
+			<div class="card custom-card-size">
+				<img src="Trainer2.png" class="card-img-bottom" alt="Photo 2">
+				<div class="card-body custom-text-style-Trainers">
+					<h2 class="card-title text-center" style="white-space: nowrap;"><br>Корчагин <br>Павел<br>Владимирович</br></h2>
+					<p class="card-text "><p align="center">Достижения <br>Чемпион Суперлиги-1 (2023-2024),Бронзовый призер Суперлиги-2 (2018-2019)</br></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-12 order-lg-3 pb-5 pt-lg-5 pt-sm-2 custom-card-spacing d-flex justify-content-center">
+			<div class="card custom-card-size">
+				<img src="Trainer3.png" class="card-img-bottom" alt="Photo 3">
+				<div class="card-body custom-text-style-Trainers">
+					<h2 class="card-title text-center" style="white-space: nowrap;"><br>Акимова<br>Татьяна<br>Александровна</br></h2>
+					<p class="card-text"><p align="center"><tex>Достижения</tex><br>Бронзовый призер Кубка России(2015-2016), Серебряный призер Суперлиги 2 (2015-2016 и 2018-2019)</br></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class = "row heading d-flex justify-content-center  pt-5 pt-sm-2">
+		<div class="col-lg-12 col-12 d-flex justify-content-center mt-lg-4 pt-5 pb-md-1" id="IDAddress"><h1>АДРЕСА ЗАНЯТИЙ</h1></div>
+	</div>
+	
+	<div class="row address ">
+		<hForAdress><div class="col-lg-12 col-12 pt-lg-2 pt-sm-1"><p align="center"><br>Проспект Космонавтов 29, корпус 7</br><br>Кадетская линия 5, корпус 2Д, Вавилов Лофт</br><br>Крылатские Холмы, д. 13</br></hForAdress></p></div>
+	</div>
+	
+
+
+	<div class="row timeTable px-0 " id="IDTeren">
+		<div class="col-lg-12 col-12 pr-5"  id="IDTimeTable">
+			<img src="TimeTable.png" class="img-fluid">
+		</div>
+	</div>
+	
+	<div class = "row heading">
+		<div class="col-lg-12 col-12 d-flex justify-content-center pb-3" id = "IDButtonTry"><h1><p>ЗАПИСАТЬСЯ НА<p> ПРОБНОЕ ЗАНЯТИЕ</p></h1></div>
+
+	<div class="form d-flex justify-content-center" >
+		<form id="registrationForm" action="#" method="POST" class = "custom-form pt-5 pb-lg-4">
+		<div class = "col-mb-5 row align-items-start">
+        	<label for="telnumber" class="col-md-5 col-sm-12 col-form-label text-md-center">*Ваше имя:</label>
+        	<div class="col-md-7  col-sm-12 text-md-end">
+        		<input type="text" id="name" name="name" required class="form-control custom-input-form" required style= "">
+        	</div>
+    	</div>
+
+    	<div class = "col-mb-5 row align-items-start">
+        	<label for="telnumber" class="col-md-5 col-sm-12 col-form-label text-md-center">*Tелефон:</label>
+        	<div class="col-md-7  col-sm-12 text-md-end">
+        		<input type="text" id="telnumber" name="telnumber" required class="form-control custom-input-form" required style= "">
+        	</div>
+    	</div>
+
+    	<div class = "col-mb-5 row align-items-start">
+        	<label for="email" class="col-md-5 col-sm-12 col-form-label text-md-center">*Ваш email:</label>
+        	<div class="col-md-7 col-sm-12 text-md-end">
+        		<input type="text" id="email" name="email" required class="form-control custom-input-form" required style= "">
+        	</div>
+    	</div>
+    	<div class = "col-mb-5 row align-items-start">
+        	<label for="country" class="col-md-5 col-sm-4 col-form-label text-md-center">*Адрес зала:</label>
+        	<div class="col-md-7">
+        		<select id="addressSelect" name="addressSelect" class="form-select" required style="border-radius: 50px; margin-left: -50px;"> 
+            		<option value="">--Выберете адрес--</option>
+            		<option value="ru">Проспект Космонавтов 29, корпус 7</option>
+            		<option value="us">Кадетская линия 5, корпус 2Д, Вавилов Лофт</option>
+            		<option value="cn">Крылатские Холмы, д. 13</option>
+        		</select>
+        		
+        		<style>
+  				#addressSelect option {
+    				font-size: 1.4vw; /* Размер шрифта для элементов списка */
+  				}
+				</style>
+
+        	</div>
+        </div>
+        <div class="d-flex justify-content-center pb-5">
+    		<button type="button" class="btn custom-btn-form custom-btn-lg-form" onclick="validateForm()">ЗАПИСАТЬСЯ</button>
+    	</div>
+		</form>
+	</div>
+	</div>
+
+	<div class="row footer">
+		<div class="col-lg-12 col-12 p-5 custom-padding-Foot custom-text-Foot" id="IDContacts">
+			 <p align="left">По индивидуальным занятиям просьба связаться с нами по телефону<p> или написать нам на почту:</p>
+			 <p align="left">+7 (915) 388-16-xx</p>
+			 <p align="left">info@dunkzone-basketball.ru</p>
+			 <p align="left">© ООО «DunkZone», 2024</p>
+		</div>
+	</div>
+
+	<div class="modal fade" id = "ModalForForm" tabindex="-1" aria-labelledby = "ModalForFormLabel" aria-hidden = "true">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
+			<div class="modal-content text-center">
+				<div class="modal-body" style="margin-left:100px; margin-right:100px;">
+					<button class="btn-close d-flex"data-bs-dismiss="modal" aria-lable="close"></button>
+					<img src="Modal.png" class="img-fluid" alt="Описание изображения">
+				</div>
+					
+			</div>
+		</div>
+	</div>
+</div>
+<script src="ScriptsForSite.js"></script>
+</body>
+</html>
+<!--прециденты, классы и объекты, компонентов, динамические-->
